@@ -1,0 +1,32 @@
+import "variables y constantes/variables_const.dart";
+import "expresiones y operadores/operadores_Asignacion.dart";
+import "expresiones y operadores/operadores_logicos.dart";
+import "expresiones y operadores/prioridad_operadores.dart";
+import "expresiones y operadores/construccion_Expresiones.dart";
+import "expresiones y operadores/traduccion_expresionesAlgebraicas.dart";
+import "expresiones y operadores/ejercicios_combinados.dart";
+import "estructuras de seleccion/sentencia_if.dart";
+import "estructuras de seleccion/sentencia_if_else.dart";
+import "estructuras de seleccion/if-else_anidada.dart";
+import "estructuras de seleccion/switch_case.dart";
+import "Estrcuturas de control/sentencia_for.dart";
+import "Estrcuturas de control/sentencia_While.dart";
+import "Estrcuturas de control/sentencia_doWhile.dart";
+import "Estrcuturas de control/ejercicios_combinadosBucles.dart";
+void main(List<String> arguments) {
+variablesConst();
+operadoresDeAsignacion();
+operadoresLogicos();
+prioridadDeOperadores();
+construccion_expresionesAlg();
+traduccion_de_expresionesAlgebraicas();
+ejerciciosCombinados();
+SentenciaIf();
+sentenciaIf_else();
+sentenciaIf_else_anidada();
+sentencia_switch_case();
+bucles_for();
+bucle_While();
+sentencia_doWhile();
+ejercicios_combinadosBucles();
+  }
